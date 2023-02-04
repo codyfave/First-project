@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background: #78c091;
+   
+}
+.container h1{
+    font-size: 16px;
+}
+
+.nav{
+    list-style: none;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 0px 20px;   
+}
+
+.nav li a{
+    text-decoration: none;
+    padding: 0px 20px;   
+    color: #fff;
+    transition: all 0.3s ease-in;
+}
+
+
+.nav li a:hover{
+    color: #000;
+}
+
+
+
+.nav li a {
+     
+}
